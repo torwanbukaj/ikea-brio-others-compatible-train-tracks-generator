@@ -8,7 +8,6 @@ This library can be used in two ways:
 -> just download, slice and 3D print provided STL files,
 -> generate your own models using provided OpenSCAD file (train_tracks_generator.scad), you can easily modify properties of your models as well as change common dimensions used by the generator (track width, height, plug & nest radius etc.).
 
-
 The library can so far be used to generate the following types of train tracks:
 -> short, low profile test track,
 -> straight tracks,
