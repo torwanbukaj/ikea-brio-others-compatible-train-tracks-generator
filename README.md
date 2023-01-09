@@ -131,3 +131,30 @@ To generate an arc, use **track_arc()** module. You can define an ark angle, rad
 
 ![Snake track description 1](img/snake_desc1_600px.png?raw=true)
 ![Snake track description 2](img/snake_desc2_600px.png?raw=true)
+
+# Dog-bone -> module track_dogbone(); 
+
+A dog-bone is a part generated using additional parameter called **track_plug_radius_ext**. It should be always set to a little larger value than standard plug radius. When connecting two track parts facing each other with nests, you are interested in reducing lateral play. This is exactly why the dog-bone has slightly oversized "heads". Deep cutouts allow such plugs to be flexible and tightly fit to slightly "undersized" for them nests.
+
+![Dog-bone](img/example_dogbone.png?raw=true)
+
+# Adapters -> module tracks_adapter();
+
+As mentioned in the summary above, some systems are just incompatible with each other (like IKEA and BRIO). This does not mean that you cannot use them together. I guess this incompatibility is just a standard method of locking us - customers - to a specific system. You can easily escape this game played by train tracks manufacturers by using dedicated adapters. Adaptation takes place only in the plug/nest areas (body of a whole adapter is always "common").
+
+Generating an adapter is as easy as calling **tracks_adapter();** module with appropriate parameters (default values in the brackets):
+
+	tracks_adapter(length = 30, nest = "B", plug = "I");
+
+- length - total adapter length (without a plug), I recommend 30mm minimum,
+- nest - here you have to define what is the "nest" system,
+- plug - here you have to define what is the "plug" system.
+
+So far, dimensions for two plug/nest systems are defined:
+- IKEA Lillabo represented by the letter "I",
+- BRIO represented by the letter "B".
+
+Below you can find two examples of parts generated to connect IKEA and BRIO systems:
+
+![Adapters description](img/train_tracks_adapter_ikea_brio_desc_600px.png?raw=true)
+![Example adapters](img/train_tracks_adapters_brio_ikea_examples_600px.jpg?raw=true)
