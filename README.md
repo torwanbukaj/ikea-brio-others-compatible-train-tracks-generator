@@ -63,3 +63,41 @@ If you want to change dimensions of a plug or a nest, locate these variables in 
 	track_nest_neck_length = 11;
 
 ![Plug dimensions](img/plug_dims_600px.jpg?raw=true)
+
+# "We want a bridge!" -> module generate_bridge(); 
+
+This is actually how this story began. We had some IKEA Lillabo and J'adore wooden railway tracks at home but these were only basic parts which were useful for building nothing more than two traditional "2D" loops. One day I heard "We want a bridge!". IKEA is maybe not far away from us but when we want to go there, it's already a kind of trip to organize. And the "bridges" offer is not too impressive in IKEA, and our 3D printer stands in the next room, and there was willingness to improve OpenSCAD skills, so...the project was born.
+
+![Example bridge](img/bridge_example_600px.jpg?raw=true)
+
+To build a full bridge, you will need minimum five parts: two "ground" and two "slope" parts,  plus so called a "dog-bone" when you are going to use straight connecting tracks in plug-nest configuration. The ground and slope parts have to be connected by a straight track of your choice. I highly recommend to use one of the standard straight tracks from an original IKEA Lillabo main or expansion set. I think it makes no sense really to print the simplest, commonly available parts.
+You can easily extend the total length of the bridge by adding one or more "pillar" track parts.
+
+OpenSCAD module to build a bridge is called "**generate_bridge();**" It takes a few parameters but the most important one is called *what_to_generate". It controls what the module generates. These are the possible values:
+- 0 - generates a bridge overview and calculates what will be the height of the bridge,
+- 1 - generates only a "ground" part,
+- 2 - generates only a "slope" part,
+- 3 - generates only a "pillar" part.
+
+This is an example of a bridge overview:
+
+![Example bridge overview](img/bridge_example_desc_600px.png?raw=true)
+
+You can generate a bridge without providing any further parameters. In such a case default values will be used:
+
+	**module generate_bridge**(what_to_generate = 0,
+	bridge_angle = 14,
+	slope_radius = 100',
+	straight_part_l = 205,
+	pillar_l = 50,
+	cutout = true);
+
+The picture below explains the bridge module parameters:
+
+![Bridge parameters](img/bridge_example_params_600px.png?raw=true)
+
+![Bridge part cutout description](img/bridge_example_cutout_desc_500px.png?raw=true)
+
+To speed up printing of the bridge parts and to reduce amount of filament which has to be used for supports, I recommend to slice the parts in the following position (laying on a sidewall):
+
+![Bridge parts - how to print](img/bridge_parts_how_to_print_540px.jpg?raw=true)
