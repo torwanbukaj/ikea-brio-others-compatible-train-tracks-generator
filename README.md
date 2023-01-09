@@ -158,3 +158,15 @@ Below you can find two examples of parts generated to connect IKEA and BRIO syst
 
 ![Adapters description](img/train_tracks_adapter_ikea_brio_desc_600px.png?raw=true)
 ![Example adapters](img/train_tracks_adapters_brio_ikea_examples_600px.jpg?raw=true)
+
+---
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
