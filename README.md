@@ -1,5 +1,3 @@
-# ikea-brio-others-compatible-train-tracks-generator
-IKEA- &amp; BRIO- &amp; others- compatible train tracks generator
 ## Summary
 
 ##### **IKEA Lillabo- & BRIO- & others- compatible train tracks generator**
