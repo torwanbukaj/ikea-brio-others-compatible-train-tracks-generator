@@ -42,11 +42,11 @@ This is a short, 20mm-long, low-profile railway track which takes maximum a doze
 Printed tester does not fit?
 I tested multiple combinations of inter-connectors dimensions, so you should not experience any issues but if you do, do not worry, you can easily experiment and customize dimensions used by the generator to fit your system.
 
-(image)
+![Plug & nest tests](img/plug_nest_tests_600px.jpg?raw=true)
 
 This is what I call a nest and a plug:
 
-(image)
+![Plug & nest](img/nest_plug_600px.png?raw=true)
 
 If you want to change dimensions of a plug or a nest, locate these variables in the library and modify according to your needs (example values below are relevant for IKEA Lillabo):
 
