@@ -2,7 +2,8 @@
 
 ![Train tracks loops](img/train_tracks_lib_example_loops_600px.jpg?raw=true)
 
-All files in this repo are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 # Summary
 
