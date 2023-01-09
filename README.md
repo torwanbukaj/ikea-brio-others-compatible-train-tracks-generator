@@ -115,6 +115,19 @@ Straight railway track is the simplest to generate. Just use **track();** module
 
 ![Arcs examples](img/arcs_switch_dogbone_examples_600px.jpg?raw=true)
 
-To generate an arc, use "*track_arc()** module. You can define an ark angle, radius and configuration of its endings (plugs/nests). Positive angles will cause generating an arc which turns to the left and negative angles will force generation of an arc turning right. In addition, you can control if a part will be generated with a material-saving **cutout** or without it. Parameter **both_sides** allows to control if the part will have groves on both sides or only on the top side. This is important if you want to keep the part the most universal (flip it up -side-down and it will turn to the opposite side). 
+To generate an arc, use **track_arc()** module. You can define an ark angle, radius and configuration of its endings (plugs/nests). Positive angles will cause generating an arc which turns to the left and negative angles will force generation of an arc turning right. In addition, you can control if a part will be generated with a material-saving **cutout** or without it. Parameter **both_sides** allows to control if the part will have groves on both sides or only on the top side. This is important if you want to keep the part the most universal (flip it up -side-down and it will turn to the opposite side). 
 
 ![Arc description](img/arcs_desc_600px.png?raw=true)
+
+# Intersections -> module intersection(); 
+
+![Intersection description](img/intersection_desc_600px.png?raw=true)
+
+# Switches -> module switch();
+
+![Switch description](img/switch_desc_600px.png?raw=true)
+
+# "Snake" track -> module snake_track();
+
+![Snake track description 1](img/snake_desc1_600px.png?raw=true)
+![Snake track description 2](img/snake_desc2_600px.png?raw=true)
