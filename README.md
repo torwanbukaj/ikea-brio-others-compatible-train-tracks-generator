@@ -88,7 +88,7 @@ This is an example of a bridge overview:
 
 You can generate a bridge without providing any further parameters. In such a case default values will be used:
 
-	**module generate_bridge**(what_to_generate = 0,
+	module generate_bridge(what_to_generate = 0,
 	bridge_angle = 14,
 	slope_radius = 100',
 	straight_part_l = 205,
